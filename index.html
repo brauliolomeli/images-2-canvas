@@ -3,27 +3,11 @@
 
 <head>
 	<meta charset="utf-8">
-	<title>Canvas Background through CSS</title>
-	<style type="text/css" media="screen">
-	</style>
 </head>
 
 <body>
-    <div id="div1"></div>
-	<script type="text/javascript" charset="utf-8">
-    var img = new Image();
-    img.onload = function(){
-        var myCanvas = document.createElement('canvas');
-        myCanvas.width = img.width;
-        myCanvas.height = img.height;
-        var ctx = myCanvas.getContext('2d');
-        ctx.drawImage(img,0,0);
-
-        var element = document.getElementById("div1");
-        element.appendChild(myCanvas);
-    };
-    img.src = 'base.png';
-</script>
+    <a href="opt1/opt1.html">Option 1</a>
+    <a href="opt2/opt2.html">Option 2</a>
 </body>
 
 </html>
